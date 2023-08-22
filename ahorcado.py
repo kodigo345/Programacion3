@@ -1,5 +1,5 @@
-print("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°")
-print("Bienvenido al juego del ahorcado")
-print("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°")
+print('================================')
+print('Bienvenido al Juego del Ahorcado')
+print('================================')
 
-print("Fin del juego")
+print('Fin del Juego')
