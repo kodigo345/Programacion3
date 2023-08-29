@@ -1,17 +1,22 @@
-import ahorcado
-import adivinanza
+def escoger_juego():
 
-print('================================')
-print('Elija su Juego')
-print('================================')
+    import ahorcado
+    import adivinanza
 
-print("(1) Ahorcado (2) Adivinanza")
+    print('================================')
+    print('Elija su Juego')
+    print('================================')
 
-juego = int(input("¿Cuál juego? "))
+    print("(1) Ahorcado (2) Adivinanza")
 
-if (juego == 1):
+    juego = int(input("¿Cuál juego? "))
+
+    if (juego == 1):
     print("Jugando ahorcado")
-    ahorcado.jugar_ahorcado()
-elif (juego == 2):
+    ahorcado.jugar()
+    elif (juego == 2):
     print("Jugando adivinanza")
-    adivinanza.jugar_adivinanza()
+    adivinanza.jugar()
+    
+if(_name__=="_main_"):
+    escoger_juego()

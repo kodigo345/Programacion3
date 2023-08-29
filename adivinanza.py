@@ -1,5 +1,5 @@
 import random
-def jugar_adivinanza():
+def jugar():
   print('=================================')
   print('Bienvenido al Juego de Adivinanza')
   print('=================================')
@@ -45,3 +45,6 @@ def jugar_adivinanza():
     puntaje = puntaje - puntos_perdidos
 
   print('Fin del Juego')
+
+if(_name__=="_main_"):
+    jugar()
